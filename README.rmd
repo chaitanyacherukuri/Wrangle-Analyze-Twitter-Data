@@ -1,8 +1,8 @@
-Wrangle & Analyze Twitter Data
+WRANGLE & ANALYZE TWITTER DATA
 
-Goal of Project: Wrangle WeRateDogs Twitter data to create interesting and trustworthy analyses and visualizations. The Twitter archive is great, but it only contains very basic tweet information. Additional gathering using the Twitter API, then assessing and cleaning was required for great analyses and visualizations.
+GOAL OF PROJECT: Wrangle WeRateDogs Twitter data to create interesting and trustworthy analyses and visualizations. The Twitter archive is great, but it only contains very basic tweet information. Additional gathering using the Twitter API, then assessing and cleaning was required for great analyses and visualizations.
 
-Wrangle Act.ipynb - Main project file
+wrangle_act.ipynb - Main project file
 
 I gathered data from three different sources for this project. WeRateDogs gave Udacity exclusive access to their Twitter archive for this project in the form of a csv file. This archive contains basic tweet data (tweet ID, timestamp, text, etc.) for all 5000+ of their tweets as they stood on August 1, 2017. Each tweet image was run through a convolutional neural network to analyze the images of dogs and correctly identify their breeds. The convolutional neural network predictions were programmatically downloaded using the urlretrieve function from urllib.request subpackage as a tsv file. And finally, using the tweet IDs from the WeRateDogs archive I queried the Twitter API for each tweet's JSON data using the Python’s Tweepy library I stored each tweet’s entire set of JSON data, which I would later use to analyse the tweet’s retweet and favorite (i.e. “like”) counts. 
 
